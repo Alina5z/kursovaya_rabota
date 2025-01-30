@@ -1,0 +1,43 @@
+{% extends 'project_prj/base.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'project_prj/styles/style.css' %}">
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block content %}
+<header>
+    <h3>Главная</h3>
+</header>
+{% if messages %}
+<ul class="messages">
+    {% for message in messages %}
+    <script>
+    alert('{{ message }}');
+    </script>
+    {% endfor %}
+</ul>
+{% endif %}
+<div class="wrap">
+    {% if tasks %}
+    <div class="toys">
+        {% for elem in tasks %}
+        <div class="centered-text">
+            <img src="{{ elem.thumbnail.url }}" alt="{{ elem.name }}" width="150"/>
+            <h1>{{ elem.name }}</h1>
+            <h3>{{ elem.manufacturer }}</h3>
+            <h3>{{ elem.price }}</h3>
+            <h3>{{ elem.square }}</h3>
+            {% if user.is_authenticated %}
+            <div class="button-container">
+                <a href="{% url 'orders-create' elem.id %}" class="button">Купить</a>
+            </div>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <p>Нет заказов</p>
+    {% endif %}
+</div>
+    {% endblock %}

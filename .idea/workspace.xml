@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e5ac7cd-b91f-4db4-826a-cb4edf9571cb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/project/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project_prj/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/project_prj/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project_prj/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/project_prj/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project_prj/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/project_prj/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project_prj/static/project_prj/img/hygiene1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project_prj/static/project_prj/img/hygiene2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project_prj/static/project_prj/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project_prj/static/project_prj/img/parf_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project_prj/static/project_prj/img/parf_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project_prj/static/project_prj/img/parf_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project_prj/static/project_prj/img/parfum1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project_prj/static/project_prj/img/parfum2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project_prj/static/project_prj/img/parfum3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project_prj/static/project_prj/img/parfum4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project_prj/static/project_prj/img/parfum5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project_prj/static/project_prj/img/parfum6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project_prj/static/project_prj/img/prod_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project_prj/static/project_prj/img/prod_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project_prj/static/project_prj/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/project_prj/static/project_prj/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project_prj/templates/project_prj/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/project_prj/templates/project_prj/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project_prj/templates/project_prj/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/project_prj/templates/project_prj/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project_prj/templates/project_prj/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/project_prj/templates/project_prj/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project_prj/templates/project_prj/rasp.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/project_prj/templates/project_prj/rasp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/users/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/users/templates/users/profile.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2sL7fbIgsQ6atjftOPkSnmEeuM9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e5ac7cd-b91f-4db4-826a-cb4edf9571cb" name="Default Changelist" comment="" />
+      <created>1738223106067</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738223106067</updated>
+    </task>
+    <servers />
+  </component>
+</project>

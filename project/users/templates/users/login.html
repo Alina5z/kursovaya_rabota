@@ -1,0 +1,27 @@
+{% extends "project_prj/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+<header>
+    <h3>Вход</h3>
+</header>
+<div class="wrap">
+    <div class="content-section">
+        <form method="POST">
+            {% csrf_token %}
+            <div class="content">
+                <div class="content2">
+                    <legend class="border-bottom mb-4">Вход</legend>
+                    {{ form|crispy }}
+                <div class="form-group">
+                    <button class="btn btn-outline-info" type="submit">Войти</button>
+                </div>
+            </div>
+        </form>
+        <div class="border-top pt-3">
+            <small class="text-muted">
+                Нужен аккаунт? <a class="ml-2" href="{% url 'register' %}">Регистрация</a>
+            </small>
+        </div>
+    </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,35 @@
+{% extends 'project_prj/base.html' %}
+
+{% block title %}
+Заказы клиента
+{% endblock %}
+
+{% block content %}
+    <header>
+    <h3><i class="fa-solid fa-book" style="color: #d896d2;"></i>Заказы</h3>
+    </header>
+<div class="order-list-content">
+    {% if orders %}
+    <h3>Список заказов</h3>
+    <table class="table-orders">
+        <tr>
+            <td>id</td>
+            <td>created</td>
+            <td>task</td>
+            <td>owner</td>
+        </tr>
+        {% for elem in orders %}
+        <tr>
+            <td>{{ elem.id }}</td>
+            <td>{{ elem.created }}</td>
+            <td>{{ elem.task }}</td>
+            <td>{{ elem.owner }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+    <p>Заказов нет</p>
+    {% endif %}
+</div>
+{% endblock %}
+
